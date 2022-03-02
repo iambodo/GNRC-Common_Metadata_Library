@@ -1,4 +1,4 @@
-# General Metadata Library { #common-metadata-library }
+# Common Metadata Library { #common-metadata-library }
 
 ## Introduction
 
@@ -33,9 +33,9 @@ Common Tracker Metadata library contains all WHO Core Case Profile objects from 
 
 All metadata in the Common Tracker Metadata Library comprise metadata groups containing the prefix GN (for General. The prefix helps to signify to the implementer or system admin that the metadata object is being shared across programs, and impact across programs should be considered before making changes/adjustments to shared metadata.
 
-- Tracked Entity Type (Person)
-- Tracked Entity Attributes
-- Option Sets, including ISO 3166-1 alpha-2 country codes
+- Tracked entity type (Person)
+- Tracked entity attributes
+- Option sets, including ISO 3166-1 alpha-2 country codes
 - Options
 - Data elements
 - Custom attributes associated with the above (e.g. LOINC, Snomed, ICD-11)
