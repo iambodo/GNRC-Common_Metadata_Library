@@ -1,0 +1,1006 @@
+{
+    "categoryOptionGroups": [],
+    "categoryOptions": [],
+    "dataElementGroups": [],
+    "dataElements": [],
+    "indicatorGroups": [],
+    "indicatorTypes": [],
+    "indicators": [],
+    "optionSets": [
+        {
+            "attributeValues": [],
+            "code": "SEX",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "WDUwjiW2rGH",
+            "name": "GEN - Sex",
+            "options": [
+                {
+                    "id": "FKKrOBBFgs1"
+                },
+                {
+                    "id": "Ii4IxCLWEFn"
+                }
+            ],
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {},
+                "users": {}
+            },
+            "translations": [
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Jinsi"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Kjønn"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Pohlaví"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Jenis Kelamin"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الجنس"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Sexe à la naissance"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Жинси"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Пол"
+                },
+                {
+                    "locale": "de",
+                    "property": "NAME",
+                    "value": "Sexo"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT",
+            "version": 16
+        }
+    ],
+    "options": [
+        {
+            "attributeValues": [],
+            "code": "FEMALE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "FKKrOBBFgs1",
+            "name": "Female",
+            "optionSet": {
+                "id": "WDUwjiW2rGH"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 1,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Femenino"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "إناث"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Аёл"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "ženský"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Kvinne"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Аyol"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Wanita"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Féminin"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Женский"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Feminino"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "code": "MALE",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "Ii4IxCLWEFn",
+            "name": "Male",
+            "optionSet": {
+                "id": "WDUwjiW2rGH"
+            },
+            "sharing": {
+                "external": false,
+                "userGroups": {},
+                "users": {}
+            },
+            "sortOrder": 2,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "muž"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Masculino"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Masculino"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "ذكور"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Эркак"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Masculin"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "мужской"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Erkak"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Mann"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Laki-laki"
+                }
+            ],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        }
+    ],
+    "package": {
+        "DHIS2Build": "aa38c7f",
+        "DHIS2Version": "2.36.8",
+        "code": "GNRCTC",
+        "description": "",
+        "lastUpdated": "20220302T113237",
+        "locale": "en",
+        "name": "Core case profile",
+        "type": "GEN",
+        "version": "1.0.0"
+    },
+    "trackedEntityAttributes": [
+        {
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "code": "ADDRESS",
+            "confidential": false,
+            "description": "Current address of the patient or case.",
+            "dimensionItem": "A6Hb0Kvg4vb",
+            "dimensionItemType": "PROGRAM_ATTRIBUTE",
+            "displayInListNoProgram": false,
+            "displayOnVisitSchedule": false,
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Current address",
+            "generated": false,
+            "id": "A6Hb0Kvg4vb",
+            "inherit": false,
+            "legendSets": [],
+            "name": "GEN - Address (current)",
+            "optionSetValue": false,
+            "orgunitScope": false,
+            "pattern": "",
+            "periodOffset": 0,
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "--------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Address (current)",
+            "skipSynchronization": false,
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Adresse locale"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Direccion"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Adresse locale"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Direccion local"
+                }
+            ],
+            "unique": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "LONG_TEXT"
+        },
+        {
+            "aggregationType": "COUNT",
+            "attributeValues": [],
+            "code": "PHONE_LOCAL",
+            "confidential": false,
+            "description": "Local mobile phone or landline number to contact the client.",
+            "dimensionItem": "fctSQp5nAYl",
+            "dimensionItemType": "PROGRAM_ATTRIBUTE",
+            "displayInListNoProgram": false,
+            "displayOnVisitSchedule": false,
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Contact phone number (local)",
+            "generated": false,
+            "id": "fctSQp5nAYl",
+            "inherit": false,
+            "legendSets": [],
+            "name": "GEN - Contact phone number (local)",
+            "optionSetValue": false,
+            "orgunitScope": false,
+            "pattern": "",
+            "periodOffset": 0,
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Phone number",
+            "skipSynchronization": false,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Número de teléfono de contacto (local)"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Número de teléfono móvil o fijo local para contactar con el cliente."
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Telefonní číslo"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Místní číslo mobilního telefonu nebo pevné linky pro kontaktování klienta."
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Número de teléfono"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Номер телефона"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Kontaktní telefonní číslo (místní)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Numéro de téléphone"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Telefon raqami"
+                }
+            ],
+            "unique": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "PHONE_NUMBER"
+        },
+        {
+            "aggregationType": "COUNT",
+            "attributeValues": [],
+            "code": "PATINFO_DOB",
+            "confidential": false,
+            "description": "Date of birth. This field can also be used when the date of birth is estimated, in conjunction with another TEA that indicates whether the birth date is estimated.",
+            "dimensionItem": "NI0QRzJvQ0k",
+            "dimensionItemType": "PROGRAM_ATTRIBUTE",
+            "displayInListNoProgram": false,
+            "displayOnVisitSchedule": false,
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Date of Birth",
+            "generated": false,
+            "id": "NI0QRzJvQ0k",
+            "inherit": false,
+            "legendSets": [],
+            "name": "GEN - Date of birth",
+            "optionSetValue": false,
+            "orgunitScope": false,
+            "pattern": "",
+            "periodOffset": 0,
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Date of birth",
+            "skipSynchronization": false,
+            "translations": [
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Data de nascimento"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Date de naissance"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Datum narození"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "تاريخ الميلاد"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Fecha de Nacimiento"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Tugʼilgan sana"
+                },
+                {
+                    "locale": "nb",
+                    "property": "SHORT_NAME",
+                    "value": "Fødselsdato"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Fecha de Nacimiento"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Tugʼilgan sana"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Datum narození"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "تاريخ الميلاد"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Дата рождения"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Дата рождения"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Date de naissance"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Fødselsdato"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Data de nascimento"
+                }
+            ],
+            "unique": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "DATE"
+        },
+        {
+            "aggregationType": "COUNT",
+            "attributeValues": [],
+            "code": "FAMILY_NAME",
+            "confidential": false,
+            "description": "Family name or last name of the patient of case.",
+            "dimensionItem": "ENRjVGxVL6l",
+            "dimensionItemType": "PROGRAM_ATTRIBUTE",
+            "displayInListNoProgram": false,
+            "displayOnVisitSchedule": false,
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Last name",
+            "generated": false,
+            "id": "ENRjVGxVL6l",
+            "inherit": false,
+            "legendSets": [],
+            "name": "GEN - Family name",
+            "optionSetValue": false,
+            "orgunitScope": false,
+            "pattern": "",
+            "periodOffset": 0,
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Family name",
+            "skipSynchronization": false,
+            "translations": [
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Apellidos"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Jméno / příjmení pacienta"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Фамилия"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Nom de famille"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Příjmení"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Фамилия"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Apellido / apellidos del paciente"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nom de famille"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Sobrenome"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Sobrenome"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Apellidos"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Příjmení"
+                }
+            ],
+            "unique": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT"
+        },
+        {
+            "aggregationType": "COUNT",
+            "attributeValues": [],
+            "code": "GIVEN_NAME",
+            "confidential": false,
+            "description": "First name",
+            "dimensionItem": "sB1IHYu2xQT",
+            "dimensionItemType": "PROGRAM_ATTRIBUTE",
+            "displayInListNoProgram": false,
+            "displayOnVisitSchedule": false,
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "First Name",
+            "generated": false,
+            "id": "sB1IHYu2xQT",
+            "inherit": false,
+            "legendSets": [],
+            "name": "GEN - Given name",
+            "optionSetValue": false,
+            "orgunitScope": false,
+            "pattern": "",
+            "periodOffset": 0,
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Given name",
+            "skipSynchronization": false,
+            "sortOrderInListNoProgram": 1,
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Křestní jméno"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Қизлик фаимилияси"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Қизлик фаимилияси"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Prénom"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Prénom"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Nome dado"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Křestní jméno"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Nombre"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Nome dado"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Nombre"
+                }
+            ],
+            "unique": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT"
+        },
+        {
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "code": "NATIONAL_ID",
+            "confidential": false,
+            "description": "Unique identifier for a person that is managed and maintained at the national level; this type of identifier is not programme-specific. This may include, for example, a national health identification number, a national insurance number, or other similar unique identifier. This TEA is intended to be adapted to local context.",
+            "dimensionItem": "Ewi7FUfcHAD",
+            "dimensionItemType": "PROGRAM_ATTRIBUTE",
+            "displayInListNoProgram": false,
+            "displayOnVisitSchedule": false,
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "National ID",
+            "generated": false,
+            "id": "Ewi7FUfcHAD",
+            "inherit": false,
+            "legendSets": [],
+            "name": "GEN - National ID",
+            "optionSetValue": false,
+            "orgunitScope": false,
+            "pattern": "",
+            "periodOffset": 0,
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "National ID",
+            "skipSynchronization": false,
+            "translations": [
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Национальный ИН"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Миллий идентификацион тартиб рақами"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "ID Nacional"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Milliy identifikatsion tartib raqami"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Identidade nacional"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "číslo Občanského průkazu"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "ID national"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Национальный ИН"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "číslo Občanského průkazu"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Milliy identifikatsion tartib raqami"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "ID national"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Identidade nacional"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "ID Nacional"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Миллий идентификацион тартиб рақами"
+                }
+            ],
+            "unique": true,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT"
+        },
+        {
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "code": "PATINFO_SEX",
+            "confidential": false,
+            "description": "Biological sex or sex assigned at birth (male, female, unknown).",
+            "dimensionItem": "oindugucx72",
+            "dimensionItemType": "PROGRAM_ATTRIBUTE",
+            "displayInListNoProgram": false,
+            "displayOnVisitSchedule": false,
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "Sex",
+            "generated": false,
+            "id": "oindugucx72",
+            "inherit": false,
+            "legendSets": [],
+            "name": "GEN - Sex",
+            "optionSet": {
+                "id": "WDUwjiW2rGH"
+            },
+            "optionSetValue": true,
+            "orgunitScope": false,
+            "pattern": "",
+            "periodOffset": 0,
+            "publicAccess": "r-------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "Sex",
+            "skipSynchronization": false,
+            "translations": [
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "Jinsi"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Pohlaví"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Jenis Kelamin"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Sexe à la naissance"
+                },
+                {
+                    "locale": "uz",
+                    "property": "SHORT_NAME",
+                    "value": "Жинси"
+                },
+                {
+                    "locale": "ar",
+                    "property": "SHORT_NAME",
+                    "value": "الجنس"
+                },
+                {
+                    "locale": "de",
+                    "property": "SHORT_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Kjønn"
+                },
+                {
+                    "locale": "ru",
+                    "property": "SHORT_NAME",
+                    "value": "Пол"
+                },
+                {
+                    "locale": "id",
+                    "property": "SHORT_NAME",
+                    "value": "Jenis Kelamin"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Pohlaví"
+                },
+                {
+                    "locale": "nb",
+                    "property": "SHORT_NAME",
+                    "value": "Kjønn"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "SHORT_NAME",
+                    "value": "Jinsi"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "الجنس"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Sexe à la naissance"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "Жинси"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Пол"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Sexo"
+                },
+                {
+                    "locale": "de",
+                    "property": "NAME",
+                    "value": "Sexo"
+                }
+            ],
+            "unique": false,
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "Admin WHO",
+                "username": "who"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "TEXT"
+        }
+    ],
+    "trackedEntityTypes": []
+}
