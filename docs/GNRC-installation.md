@@ -244,12 +244,12 @@ Make sure to replace all occurances of the old uid with the new uid in the syste
 >     UPDATE dataelementcategoryoption SET uid = '<new-uid>' WHERE uid = '<old-uid>';
 >     ```
 
-#### Data elements, option sets and options
+#### Tracked entity attributes, data elements, option sets and options
 
 For option set based data elements and attributes, make sure that these option sets are identical in the source file and in the target instance.
 Check that the matching option sets contain the same options.
 
-Check the aggregation type of the data elements in the source file and the target instance.
+Check the aggregation and value types of the data elements and attributes in the source file and the target instance.
 
 #### Option codes
 
@@ -279,3 +279,7 @@ For tracked entity attribute values, use:
     SET value = <new-value>
     WHERE trackedentityattributeid=<affected trackedentityattribute database_id> AND value=<old-value>;
     ```
+
+#### Tracked entity type
+
+If the tracked entity types in the Common metadata library and the target instance match, reviw the sharing settings, the assigned tracked entity type attributes and their settings, before importing the Common metadata library.
