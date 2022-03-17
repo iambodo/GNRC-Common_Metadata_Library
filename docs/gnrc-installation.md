@@ -265,20 +265,20 @@ The table below contains all option sets where codes were changed to upper case 
 
 For data element values, use:
 
-    ```SQL
-    UPDATE programstageinstance
-    SET eventdatavalues = jsonb_set(eventdatavalues, '{"<affected-data-element-uid>","value"}', '"<new-value>"')
-    WHERE eventdatavalues @> '{"<affected-data-element-uid>":{"value": "<old-value>"}}'::jsonb
-    AND programstageid=<database_programsatgeid>;
-    ```
+```SQL
+UPDATE programstageinstance
+SET eventdatavalues = jsonb_set(eventdatavalues, '{"<affected-data-element-uid>","value"}', '"<new-value>"')
+WHERE eventdatavalues @> '{"<affected-data-element-uid>":{"value": "<old-value>"}}'::jsonb
+AND programstageid=<database_programsatgeid>;
+```
 
 For tracked entity attribute values, use:
 
-    ```SQL
-    UPDATE trackedentityattributevalue
-    SET value = <new-value>
-    WHERE trackedentityattributeid=<affected trackedentityattribute database_id> AND value=<old-value>;
-    ```
+```SQL
+UPDATE trackedentityattributevalue
+SET value = <new-value>
+WHERE trackedentityattributeid=<affected trackedentityattribute database_id> AND value=<old-value>;
+```
 
 #### Tracked entity type
 
