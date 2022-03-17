@@ -140,7 +140,7 @@ Available translations: French, Spanish, Portuguese, Arabic
     }
     ```
 
-=== "DHIS2.37"
+### "DHIS2.37"
 
 === "Common metadata library (complete)"
 
@@ -240,9 +240,9 @@ Make sure to replace all occurances of the old uid with the new uid in the syste
 >
 > To update the uid of a category option use the following command:
 >
->     ```SQL
->     UPDATE dataelementcategoryoption SET uid = '<new-uid>' WHERE uid = '<old-uid>';
->     ```
+> ```SQL
+> UPDATE dataelementcategoryoption SET uid = '<new-uid>' WHERE uid = '<old-uid>';
+> ```
 
 #### Tracked entity attributes, data elements, option sets and options
 
