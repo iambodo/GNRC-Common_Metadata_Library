@@ -20,16 +20,17 @@ Common tracker metadata are made available as installable metadata files that ca
 
 1. Core Case Profile
 
-These are used across all WHO case-based surveillance tracker programs: Immunization, HIV, Malaria, TB, VPD, and COVID-19 Case-based surveillance. The Core Case Profile was developed through an internal WHO harmonization of naming conventions for case-based registries and facility-level aggregate datasets across all WHO programmes that use DHIS2 as of September 2020. This library will be reviewed on an annual basis for possible revisions. It includes:
+The core case profile is a small collection of metadata objects in the tracker domain that represent identifiers and common data variables typically used across case-based registries. These metadata are re-used across all WHO case-based surveillance tracker packages (e.g. HIV, Malaria, TB, VPD, and COVID-19 case-based surveillance). The Core Case Profile was developed through an internal WHO harmonization process for identifying and harmonizing naming conventions for shared data variables across person-centered monitoring and case-based surveillance programs. There are many practical benefits of harmonizing these metadata in a DHIS2 instance, such as enabling the registration of a TEI 'person' in one program and making their personal details available for searching to enroll in another program (such as enrolling an HIV case into the TB program). 
 
+The core case profile includes the following objects:
 - Tracked Entity Type (Person)
-- Tracked Entity Attributes
-- Options
-- Option Sets
+- Tracked Entity Attributes (e.g. given name, family name, date of birth)
+- Options (e.g. male, female
+- Option Sets (e.g. sex)
 
 2. DHIS2 Common Tracker Metadata library
 
-Common Tracker Metadata library contains all WHO Core Case Profile objects from above, plus other common metadata such as data elements, option sets, and options. This library is not exhaustive, but contains metadata concepts that are included in official DHIS2 tracker packages, and are generic enough that they could be conceivably shared across programs (e.g. option sets for a list of countries or a data element for ‘date of death’). The library is intended to provide a selection of common metadata that implementers can take at their discretion in the development of tracker programs. This library will be more frequently updated and expanded on a semi-annual basis as metadata packages are developed and deployed.
+Common Tracker Metadata library contains all objects from the core case profile above, plus other common metadata such as data elements, option sets, and options. This library is not exhaustive, but contains metadata concepts that are included in official DHIS2 tracker packages, and are generic enough that they could be conceivably shared across programs (e.g. option sets for a list of countries or a data element for ‘date of death’). The library is intended to provide a selection of common metadata that implementers can take at their discretion in the development of tracker programs. This library will be more frequently updated and expanded on a semi-annual basis as metadata packages are developed and deployed.
 
 All metadata in the Common Tracker Metadata Library comprise metadata groups containing the prefix GN (for General. The prefix helps to signify to the implementer or system admin that the metadata object is being shared across programs, and impact across programs should be considered before making changes/adjustments to shared metadata.
 
@@ -44,7 +45,7 @@ All metadata in the Common Tracker Metadata Library comprise metadata groups con
 
 The diagram above illustrates a few points about the modular structure of the package.
 
-The DHIS2 Common Tracker Library includes the entirety of the WHO Core Case Profile, in addition to other metadata objects.
+The DHIS2 Common Tracker Library includes the entirety of the Core Case Profile, in addition to other metadata objects.
 
 A DHIS2 Metadata Package may utilize metadata found within the Core Case Profile, within the broader Common Tracker Library, or its own program-specific metadata (see HIV CS Package).
 
@@ -52,4 +53,4 @@ A custom, locally-designed tracker program may also utilize metadata found withi
 
 Imagine a scenario where the NTD Surveillance program above is developed independently. The implementers then decide to import the HIV CS package into the same DHIS2 instance. There would be a number of conflicts during metadata import, because objects in each program have the same name and different UIDs (phone number, national ID, and country of birth). If the Core Case Profile had been imported prior to the configuration of a custom NTD program, there would be less work involved to configure new metadata, and fewer clashes when the HIV CS package is imported.
 
-Finally, note that the GEN prefix will not be visible to end users of your programs. These metadata come translated for XYZ different locales, and can be further translated to other local languages without interfering with the baseline UIDs, names, and codes.
+Note that the GEN prefix is used internally within the package environment to signify that the metadata is shared across programs; however, the GEN prefix will not be visible to end users of your programs. These metadata come translated for different locales, and can be further translated to other local languages without interfering with the baseline UIDs, names, and codes.
