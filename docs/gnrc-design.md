@@ -25,12 +25,12 @@ The core case profile is a small collection of metadata objects in the tracker d
 The core case profile includes the following objects:
 - Tracked Entity Type (Person)
 - Tracked Entity Attributes (e.g. given name, family name, date of birth)
-- Options (e.g. male, female
+- Options (e.g. male, female)
 - Option Sets (e.g. sex)
 
-2. DHIS2 Common Tracker Metadata library
+2. Common Tracker Metadata 
 
-Common Tracker Metadata library contains all objects from the core case profile above, plus other common metadata such as data elements, option sets, and options. This library is not exhaustive, but contains metadata concepts that are included in official DHIS2 tracker packages, and are generic enough that they could be conceivably shared across programs (e.g. option sets for a list of countries or a data element for ‘date of death’). The library is intended to provide a selection of common metadata that implementers can take at their discretion in the development of tracker programs. This library will be more frequently updated and expanded on a semi-annual basis as metadata packages are developed and deployed.
+This library contains all objects from the core case profile above, plus other common metadata in the tracker domain such as data elements, option sets, and options. This library is not exhaustive, but contains metadata concepts that are included in official DHIS2 tracker packages, and are generic enough that they could be conceivably shared across programs (e.g. option sets for a list of countries or a data element for ‘date of death’). The library is intended to provide a selection of common metadata that implementers can take at their discretion in the development of tracker programs. This library will be more frequently updated and expanded on a semi-annual basis as metadata packages are developed and deployed.
 
 All metadata in the Common Tracker Metadata Library comprise metadata groups containing the prefix GN (for General. The prefix helps to signify to the implementer or system admin that the metadata object is being shared across programs, and impact across programs should be considered before making changes/adjustments to shared metadata.
 
@@ -43,13 +43,7 @@ All metadata in the Common Tracker Metadata Library comprise metadata groups con
 
 ![Shared metadata diagram](resources/images/metadata-diagram-en.png)
 
-The diagram above illustrates a few points about the modular structure of the package.
-
-The DHIS2 Common Tracker Library includes the entirety of the Core Case Profile, in addition to other metadata objects.
-
-A DHIS2 Metadata Package may utilize metadata found within the Core Case Profile, within the broader Common Tracker Library, or its own program-specific metadata (see HIV CS Package).
-
-A custom, locally-designed tracker program may also utilize metadata found within the Core Case Profile, within the broader Common Tracker Library, or develop its own program-specific metadata.
+The diagram above illustrates a few points about the modular structure of the package. The Common Tracker Metadata library includes the entirety of the Core Case Profile, in addition to other metadata objects. A DHIS2 Metadata Package may utilize metadata found within the Core Case Profile, within the broader Common Tracker Library, or its own program-specific metadata (see HIV CS Package). Meanwhile, a custom, locally-designed tracker program may also utilize metadata found within the Core Case Profile, within the broader Common Tracker Library, or develop its own program-specific metadata.
 
 Imagine a scenario where the NTD Surveillance program above is developed independently. The implementers then decide to import the HIV CS package into the same DHIS2 instance. There would be a number of conflicts during metadata import, because objects in each program have the same name and different UIDs (phone number, national ID, and country of birth). If the Core Case Profile had been imported prior to the configuration of a custom NTD program, there would be less work involved to configure new metadata, and fewer clashes when the HIV CS package is imported.
 
