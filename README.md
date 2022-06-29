@@ -1,1 +1,1 @@
-# GNRC - Common Metadata Library
+# GEN_LIB - Common Metadata Library
