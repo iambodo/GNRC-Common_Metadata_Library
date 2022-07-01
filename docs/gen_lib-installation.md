@@ -1,4 +1,4 @@
-# Common metadata library - Installation Guide { #gnrc-installation }
+# Common metadata library - Installation Guide { #gen-lib-installation }
 
 This document includes an installation guide for the common metadata library.
 
