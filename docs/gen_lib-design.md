@@ -32,7 +32,7 @@ The core case profile includes the following objects:
 
 This library contains all objects from the core case profile above, plus other common metadata in the tracker domain such as data elements, option sets, and options. This library is not exhaustive, but contains metadata concepts that are included in official DHIS2 tracker packages, and are generic enough that they could be conceivably shared across programs (e.g. option sets for a list of countries or a data element for ‘date of death’). The library is intended to provide a selection of common metadata that implementers can take at their discretion in the development of tracker programs. This library will be more frequently updated and expanded on a semi-annual basis as metadata packages are developed and deployed.
 
-All metadata in the Common Tracker Metadata Library comprise metadata groups containing the prefix GN (for General. The prefix helps to signify to the implementer or system admin that the metadata object is being shared across programs, and impact across programs should be considered before making changes/adjustments to shared metadata.
+All metadata in the Common Tracker Metadata Library comprise metadata groups containing the prefix GEN (for General). The prefix helps to signify to the implementer or system admin that the metadata object is being shared across programs, and impact across programs should be considered before making changes/adjustments to shared metadata.
 
 - Tracked entity type (Person)
 - Tracked entity attributes
