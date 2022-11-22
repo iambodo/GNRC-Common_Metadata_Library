@@ -2,7 +2,7 @@
 
 ## Release Note
 
-[Release Note](gen-lib-release-note)
+- [Release Note](gen-lib-release-note)
 
 ## Design
 
